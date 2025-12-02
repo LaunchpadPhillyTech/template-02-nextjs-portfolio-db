@@ -5,12 +5,8 @@
 /.pnp
 .pnp.js
 .yarn/install-state.gz
-<<<<<<< HEAD
-.instructor-notes
-=======
 .claude
 CLAUDE.md
->>>>>>> solution
 
 # testing
 /coverage
@@ -33,11 +29,8 @@ yarn-error.log*
 
 # local env files
 .env*.local
-<<<<<<< HEAD
-=======
 .env
 .instructors/
->>>>>>> solution
 
 # vercel
 .vercel
@@ -48,8 +41,5 @@ next-env.d.ts
 
 # vitest
 .vitest
-<<<<<<< HEAD
-=======
 
 /app/generated/prisma
->>>>>>> solution
