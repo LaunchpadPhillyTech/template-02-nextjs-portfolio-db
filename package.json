@@ -1,7 +1,7 @@
 {
-  "name": "week1-portfolio-starter",
-  "version": "1.0.0",
-  "description": "Week 1: Next.js Portfolio Project - GitHub Classroom Template",
+  "name": "week2-portfolio-database",
+  "version": "2.0.0",
+  "description": "Week 2: Next.js Portfolio with Database - GitHub Classroom Template",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
@@ -9,9 +9,14 @@
     "start": "next start",
     "lint": "next lint",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "db:push": "prisma db push",
+    "db:seed": "node prisma/seed.js",
+    "db:studio": "prisma studio",
+    "db:generate": "prisma generate"
   },
   "dependencies": {
+    "@prisma/client": "^5.22.0",
     "next": "^15.0.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
@@ -25,6 +30,7 @@
     "eslint-config-next": "^15.0.3",
     "jsdom": "^23.0.1",
     "postcss": "^8.4.32",
+    "prisma": "^5.22.0",
     "tailwindcss": "^4.0.0",
     "vitest": "^2.0.5"
   },
