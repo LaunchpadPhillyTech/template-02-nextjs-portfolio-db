@@ -290,7 +290,7 @@ describe('Database Schema and Operations', () => {
         prisma.project.create({
           data: {
             title: "Missing technologies",
-            description: "This project has no tech stack"
+            description: "This project has no tech stack",
           }
         })
       ).rejects.toThrow();
